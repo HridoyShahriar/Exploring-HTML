@@ -1,4 +1,4 @@
-nav ul {
+nav>ul {
     display: flex;
 }
 
@@ -18,4 +18,22 @@ nav li a {
     font-size: 25px;
     font-weight: 700;
     padding: 20px;
+}
+
+.dropdown {
+    padding: 0 2px 0 30px;
+    display: none;
+    position: absolute;
+    text-decoration: none;
+    background-color: lightyellow;
+}
+
+.dropdown li a {
+    padding: 0;
+    margin: 0;
+}
+
+.hover:hover .dropdown {
+    display: block;
+    color: blue;
 }
